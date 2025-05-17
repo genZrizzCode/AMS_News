@@ -1,38 +1,67 @@
-# sv
+# AMS News 📰
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to the official **AMS News** repository!
 
-## Creating a project
+This is a SvelteKit-powered static site built to deliver AMS-related updates in a modern, fast, and clean way. If you landed here by accident, check out the live website:
 
-If you're seeing this, you've probably already done this step. Congrats!
+👉 [AMS News Website](https://genzrizzCode.github.io/AMS_News/)
+
+---
+
+## 🛠 Developers & Curious Minds
+
+Want to explore or contribute to this project? Here's how to get started:
+
+### 🔧 Clone the repository
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/genZrizzCode/AMS_News.git
+cd AMS_News
 ```
 
-## Developing
+### 📦 Install dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm install
+```
+
+### 💻 Start local development
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Open your browser and go to [http://localhost:5173](http://localhost:5173)
 
-To create a production version of your app:
+---
+
+## 🚀 Deploy to GitHub Pages
+
+This site uses `gh-pages` to deploy the static output.
+
+To build and deploy:
 
 ```bash
-npm run build
+npm run deploy
 ```
 
-You can preview the production build with `npm run preview`.
+Make sure the GitHub Pages settings for this repo are configured to:
+- **Branch:** `gh-pages`
+- **Folder:** `/ (root)`
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+
+## 🧰 Tech Stack
+
+- [SvelteKit](https://kit.svelte.dev/)
+- [Vite](https://vitejs.dev/)
+- [gh-pages](https://www.npmjs.com/package/gh-pages)
+- Static site hosted on [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 📄 License
+
+Apache 2.0 © [genZrizzCode](https://github.com/genZrizzCode)
+
+---
