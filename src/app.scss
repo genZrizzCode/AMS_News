@@ -6,7 +6,7 @@
     
     @font-face {
         font-family: 'Impact';
-        src: url('/impact/impact.ttf') format('truetype');
+        src: url('../static/impact/impact.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -17,5 +17,6 @@
         background-color: $bg-color;
         @media (prefers-color-scheme: dark) {
             background-color: $darkbg-color;
+            color: white;
         }
     }
