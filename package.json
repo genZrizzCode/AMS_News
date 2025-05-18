@@ -4,11 +4,11 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"deploy": "vite build && gh-pages -d build"
+		"deploy": "svelte-kit build && gh-pages -d build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
