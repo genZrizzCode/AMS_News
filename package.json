@@ -7,7 +7,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "vite sync || echo ''",
+		"prepare": "svelte-kit sync || echo ''",
 		"deploy": "vite build && gh-pages -d build"
 	},
 	"devDependencies": {
