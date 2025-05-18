@@ -1,0 +1,20 @@
+@use "sass:list";
+@use "sass:color";
+
+    $bg-color: #36F;
+    $darkbg-color: #1B3687;
+    
+    @font-face {
+        font-family: 'Impact';
+        src: url('/impact/impact.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    html {
+        background-color: $bg-color;
+        @media (prefers-color-scheme: dark) {
+            background-color: $darkbg-color;
+        }
+    }
