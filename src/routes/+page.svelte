@@ -1,2 +1,2 @@
-<h1>AMS News</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1 class="huge2timesText">AMS News</h1>
+<h4>Welcome to the AMS News Website!</h4>
