@@ -1,0 +1,1 @@
+import{t as o,a}from"../chunks/BI3IWYSN.js";import"../chunks/C4Nmxhe2.js";import{n as m}from"../chunks/CcdpUzid.js";var r=o('<h1 class="huge2timesText">AMS News</h1> <h4>Welcome to the AMS News Website!</h4>',1);function h(e){var t=r();m(2),a(e,t)}export{h as component};
