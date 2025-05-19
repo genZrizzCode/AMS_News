@@ -6,17 +6,23 @@
     
     @font-face {
         font-family: 'Impact';
-        src: url('../static/impact/impact.ttf') format('truetype');
+        src: url('./impact/impact.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
     }
 
     html {
-        text-align: center;
         background-color: $bg-color;
+        color: white;
         @media (prefers-color-scheme: dark) {
             background-color: $darkbg-color;
-            color: white;
         }
+    }
+
+    #center-align {
+        text-align: center;
+    }
+    #news-align {
+        text-align: justify;
     }
