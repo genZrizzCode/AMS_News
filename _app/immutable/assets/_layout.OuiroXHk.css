@@ -1,0 +1,1 @@
+@font-face{font-family:Impact;src:url(./impact/impact.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}html{background-color:#36f;color:#fff}@media (prefers-color-scheme: dark){html{background-color:#1b3687}}h1,h2,h3{font-family:Impact,sans-serif}#center-align{text-align:center}#news-align{text-align:justify}
