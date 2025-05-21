@@ -56,6 +56,7 @@ Make sure the GitHub Pages settings for this repo are configured to:
 - [SvelteKit](https://kit.svelte.dev/)
 - [Vite](https://vitejs.dev/)
 - [gh-pages](https://www.npmjs.com/package/gh-pages)
+- [Dart-Sass](https://github.com/sass/dart-sass/releases/tag/1.89.0)
 - Static site hosted on [GitHub Pages](https://pages.github.com/)
 
 ---
