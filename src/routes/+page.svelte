@@ -4,7 +4,7 @@
   const septemberMain = newsData.Headlines.Descriptions["2024-25"].September.main;
   const octoberMain = newsData.Headlines.Descriptions["2024-25"].October.main;
   const novemberMain = newsData.Headlines.Descriptions["2024-25"].November.main;
-  const decFebMain = newsData.Headlines.Descriptions["2024-25"].Dec-Feb.main;
+  const decFebMain = newsData.Headlines.Descriptions["2024-25"]["Dec-Feb"].main;
   const marchMain = newsData.Headlines.Descriptions["2024-25"].March.main;
   const aprilMain = newsData.Headlines.Descriptions["2024-25"].April.main;
   const mayMain = newsData.Headlines.Descriptions["2024-25"].May.main;
