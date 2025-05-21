@@ -6,22 +6,22 @@
 </script>
 <h1 class="huge2timesText">AMS News</h1>
 <h4>Welcome to the AMS News Website!</h4>
-<br><br>
+<hr><br>
 <div id="Months">
     <h3>May</h3>
-    <br>
+    <hr>
     <h3>April</h3>
-    <br>
+    <hr>
     <h3>March</h3>
-    <br>
+    <hr>
     <h3>Dec-Feb</h3>
-    <br>
+    <hr>
     <h3>November</h3>
-    <br>
+    <hr>
     <h3>October</h3>
     <h5>{octoberMain}</h5>
-    <br>
+    <hr>
     <h3>September</h3>
     <h5>{septemberMain}</h5>
-    <br>
+    <hr>
 </div>
