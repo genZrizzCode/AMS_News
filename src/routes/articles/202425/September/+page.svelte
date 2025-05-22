@@ -7,6 +7,12 @@
 <div class="huge2timesText">
     <h1 id="center-align">{ septemberMain }</h1>
     <hr><br>
-    <p id="news-align">{ septemberArticle }</p>
+    {#each [
+      ...septemberArticle["General Announcements"].split('\n'),
+      ...septemberArticle["Ask Adams"].split('\n'),
+      ...septemberArticle.Organization.split('\n')
+    ] as line}
+      <p id="news-align">{line}</p>
+    {/each}
     <br>
 </div>
