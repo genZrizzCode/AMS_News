@@ -1,0 +1,9 @@
+const a={Descriptions:{"2024-25":{September:{main:"MINIMUM DAYS 12-13TH, E-BIKE TRAINING 14TH, SUMMER NEWS, WEB & ASB INTERVIEWS",Article:{"General Announcements":`There will be minimum days on September 12-13th, and E-Bike training on the 14th. You must take E-Bike training if you plan to park your bike at school. On the 17th tutorials will start and there will be a PTSA giveaway on the 19th.
+Please turn off your phone before entering school, and stay safe!
+
+`,"Ask Adams":`All in all, many people traveled over the summer, but some stayed & went to camps. Florida was the most visited place. Most people also said the first day was really boring because we had advisment all-day.
+
+`,Organization:`WEB stands for where everybody belongs. They help 6th graders figure out their schedules and where their classrooms are, so they can make them feel like they belong here at AMS. WEB will be going the 6th grade advisment classes to play games and do presentations, and are planning to do a bubble soccer game later in the year (May 2025).
+ASB is the student council of this school. They will do, 'dances, fundraisers, and more' (Colin Kim, VP ASB).
+
+`,"Eagle Alert":null,"Meet the South Bay":null}},October:{main:"N/A, WOP"},November:{main:"N/A, WOP"},"Dec-Feb":{main:"N/A, WOP"},March:{main:"N/A, WOP"},April:{main:"N/A, WOP"},May:{main:null}}}},e={Headlines:a},n=e.Headlines.Descriptions["2024-25"].September.main,s=e.Headlines.Descriptions["2024-25"].September.Article,i=e.Headlines.Descriptions["2024-25"].October.main,t=e.Headlines.Descriptions["2024-25"].November.main,o=e.Headlines.Descriptions["2024-25"]["Dec-Feb"].main,r=e.Headlines.Descriptions["2024-25"].March.main,l=e.Headlines.Descriptions["2024-25"].April.main,c=e.Headlines.Descriptions["2024-25"].May.main;export{s as a,l as b,r as c,o as d,c as m,t as n,i as o,n as s};
