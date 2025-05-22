@@ -1,13 +1,13 @@
 <script>
-  import newsData from '$lib/news-list.json';
-
-  const septemberMain = newsData.Headlines.Descriptions["2024-25"].September.main;
-  const octoberMain = newsData.Headlines.Descriptions["2024-25"].October.main;
-  const novemberMain = newsData.Headlines.Descriptions["2024-25"].November.main;
-  const decFebMain = newsData.Headlines.Descriptions["2024-25"]["Dec-Feb"].main;
-  const marchMain = newsData.Headlines.Descriptions["2024-25"].March.main;
-  const aprilMain = newsData.Headlines.Descriptions["2024-25"].April.main;
-  const mayMain = newsData.Headlines.Descriptions["2024-25"].May.main;
+  import {
+    septemberMain,
+    octoberMain,
+    novemberMain,
+    decFebMain,
+    marchMain,
+    aprilMain,
+    mayMain
+  } from '$lib';
 </script>
 <h1 class="huge2timesText">AMS News</h1>
 <h4>Welcome to the AMS News Website!</h4>
@@ -31,7 +31,7 @@
     <h3>October</h3>
     <h5>{octoberMain}</h5>
     <hr>
-    <h3>September</h3>
-    <h5>{septemberMain}</h5>
+    <h3>September (Only functioning one)</h3>
+    <a href="/articles/202425/September"><h5>{septemberMain}</h5></a>
     <hr>
 </div>
