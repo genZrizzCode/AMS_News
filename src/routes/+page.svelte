@@ -8,6 +8,8 @@
     aprilMain,
     mayMain
   } from '$lib';
+
+  import { base } from '$app/paths'
 </script>
 <h1 class="huge2timesText">AMS News</h1>
 <h4>Welcome to the AMS News Website!</h4>
