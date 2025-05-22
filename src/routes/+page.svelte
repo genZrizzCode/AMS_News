@@ -32,6 +32,6 @@
     <h5>{octoberMain}</h5>
     <hr>
     <h3>September (Only functioning one)</h3>
-    <a href="/articles/202425/September"><h5>{septemberMain}</h5></a>
+    <a href="{ base }/articles/202425/September"><h5>{septemberMain}</h5></a>
     <hr>
 </div>
