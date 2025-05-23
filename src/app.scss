@@ -1,7 +1,6 @@
 @use "sass:color";
 
 $bg-color: #36F;
-$darkbg-color: #1B3687;
     
 @font-face {
     font-family: 'Impact';
@@ -15,7 +14,7 @@ html {
     background-color: $bg-color;
     color: white;
     @media (prefers-color-scheme: dark) {
-        background-color: $darkbg-color;
+        background-color: color.scale($bg-color, $lightness: -25%);
     }
 }
 
