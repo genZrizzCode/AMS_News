@@ -2,7 +2,7 @@
   import { goto } from '$app/navigation';
 
   function goToMonth(month) {
-    goto(`/articles/202425/${month}`);
+    goto(`/AMS_News/articles/202425/${month}`);
   }
 </script>
 
