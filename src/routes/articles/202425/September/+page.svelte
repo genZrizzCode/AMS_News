@@ -12,7 +12,7 @@
       ...septemberArticle["Ask Adams"].split('\n'),
       ...septemberArticle.Organization.split('\n')
     ] as line}
-      <p id="news-align">{line}</p>
+      <p id="news-align">{line.replaceAll('\t', '\u00A0\u00A0\u00A0\u00A0')}</p>
     {/each}
     <br>
 </div>

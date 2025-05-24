@@ -14,7 +14,7 @@ html {
     background-color: $bg-color;
     color: white;
     @media (prefers-color-scheme: dark) {
-        background-color: color.scale($bg-color, $lightness: -25%);
+        background-color: color.adjust($bg-color, $lightness: -35%);
     }
 }
 
@@ -47,6 +47,51 @@ a {
   text-decoration: underline;
   color: inherit;
   cursor: pointer;
+}
+
+.button-reg {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5em;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow 0.05s ease-in-out, opacity 0.05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+
+  &:hover {
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+    text-decoration: none;
+    transition-duration: 0.15s, 0.15s;
+  }
+
+  &:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+
+    &:active {
+      pointer-events: none;
+    }
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
 }
 
 @debug "Hi"
