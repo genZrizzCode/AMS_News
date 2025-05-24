@@ -8,11 +8,11 @@
 
 <h1>Summary coming your way soon!</h1>
 <div id="center-align">
-    <button class="button-reg">May</button>
-    <button class="button-reg">April</button>
-    <button class="button-reg">March</button>
-    <button class="button-reg">Winter (Dec-Feb)</button>
-    <button class="button-reg" on:click={() => goToMonth('November')}>November</button>
+    <button disabled class="button-reg">May</button>
+    <button disabled class="button-reg">April</button>
+    <button disabled class="button-reg">March</button>
+    <button disabled class="button-reg">Winter (Dec-Feb)</button>
+    <button disabled class="button-reg" on:click={() => goToMonth('November')}>November</button>
     <button class="button-reg" on:click={() => goToMonth('October')}>October</button>
     <button class="button-reg" on:click={() => goToMonth('September')}>September</button>
 </div>
