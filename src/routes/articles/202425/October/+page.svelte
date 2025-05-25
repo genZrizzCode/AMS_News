@@ -5,7 +5,7 @@
      } from "$lib";
 </script>
 <div class="huge2timesText">
-    <h1 id="center-align">{ octoberMain }</h1>
+    <h1>{ octoberMain }</h1>
     <hr><br>
     {#each [
       ...octoberArticle["General Announcements"].split('\n'),
