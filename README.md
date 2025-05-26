@@ -71,6 +71,5 @@ Apache 2.0 © [genZrizzCode](https://github.com/genZrizzCode)
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=genZrizzCode/AMS_News&type=Date)](https://www.star-history.com/#genZrizzCode/AMS_News&Date)
-
+[Star History Chart](https://www.star-history.com/#genZrizzCode/AMS_News&Date)
 ---
