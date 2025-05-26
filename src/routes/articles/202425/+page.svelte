@@ -7,7 +7,7 @@
 </script>
 
 <h1>Summary coming your way soon!</h1>
-<div id="center-align">
+<div class="twelveM" id="center-align">
     <button disabled class="button-reg">May</button>
     <button disabled class="button-reg">April</button>
     <button disabled class="button-reg">March</button>

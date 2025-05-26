@@ -1,3 +1,5 @@
+![](static/favicon.ico)
+
 # AMS News 📰
 
 Welcome to the official **AMS News** repository!

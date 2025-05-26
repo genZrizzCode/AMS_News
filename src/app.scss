@@ -1,7 +1,11 @@
 @use "sass:color";
 
-$bg-color: #36F;
-    
+$bg-color: #e6e7e7;
+$txt-color: #0D1117;
+$button-bg-color: #5b5b5b;
+$reg-shadow-color: rgba(0, 0, 0, 0.12);
+$hover-shadow-color: rgba(255, 255, 255, 0.3);
+
 @font-face {
     font-family: 'Impact';
     src: url('./impact/impact.ttf') format('truetype');
@@ -12,9 +16,10 @@ $bg-color: #36F;
 
 html {
     background-color: $bg-color;
-    color: white;
+    color: $txt-color;
     @media (prefers-color-scheme: dark) {
-        background-color: color.adjust($bg-color, $lightness: -35%);
+        background-color: $txt-color;
+        color: $bg-color;
     }
 }
 
@@ -49,18 +54,25 @@ body {
     margin: 25px;
 }
 
+.twelveM {
+    margin-left: 18.75%;
+    margin-right: 18.75%;
+    margin-bottom: 0.75%;
+}
+
 .button-reg {
-  background-color: #36A9AE;
-  background-image: linear-gradient(#37ADB2, #329CA0);
-  border: 1px solid #2A8387;
+  background-color: $button-bg-color;
+  background-image: linear-gradient(#c7c7c7cb, #40404099);
+  border: 1px solid ;
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
-  color: #FFFFFF;
+  box-shadow: $reg-shadow-color 0 1px 1px;
+  color: #000000c2;
   cursor: pointer;
   display: block;
   font-size: 1.5em;
   line-height: 100%;
-  margin: 5px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
   outline: 0;
   padding: 11px 15px 12px;
   text-align: center;
@@ -69,11 +81,19 @@ body {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 100%;
+  @media (prefers-color-scheme: dark) {
+    background-color: color.invert($button-bg-color);
+    box-shadow: color.invert($reg-shadow-color) 0 1px 1px;
+    color: #f5f5f5f5
+  }
 
   &:hover {
     box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
     text-decoration: none;
     transition-duration: 0.15s, 0.15s;
+    @media (prefers-color-scheme: dark) {
+        box-shadow: color.invert($hover-shadow-color) 0 0 2px inset;
+    }
   }
 
   &:active {
