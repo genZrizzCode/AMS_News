@@ -1,7 +1,7 @@
 @use "sass:color";
 
 $bg-color: #e6e7e7;
-$txt-color: #0D1117;
+$txt-color: #333;
 $button-bg-color: #5b5b5b;
 $reg-shadow-color: rgba(0, 0, 0, 0.12);
 $hover-shadow-color: rgba(255, 255, 255, 0.3);
@@ -25,15 +25,17 @@ html {
 
 h1, h2, h3 {
     font-family: 'Impact', sans-serif;
-    font-size: 200%;
+}
+h1 {
+    font-size: 400%;
 }
 
-h5 {
+h2, h3, h5 {
     font-size: 200%;
 }
 
 p {
-    font-size: 125%;
+    font-size: 150%;
 }
 
 #center-align {
