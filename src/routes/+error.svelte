@@ -1,3 +1,4 @@
+<!-- Only works in localhost :( -->
 <script>
   import { page } from '$app/stores';
   import directories from '$lib/directories.json';
