@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #e63946;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    a {
+      color: #457b9d;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>404</h1>
+  <h2>Oops! This page doesn't exist.</h2>
+  <p>Check the URL or go back to the <a href="/">home page</a>.</p>
+  <p>You tried to visit: <span id="path"></span></p>
+
+  <script>
+    document.getElementById('path').textContent = window.location.pathname;
+  </script>
+</body>
+</html>
