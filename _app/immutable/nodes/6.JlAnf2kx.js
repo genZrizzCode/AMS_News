@@ -1,0 +1,4 @@
+import{t as p,a as r}from"../chunks/DTOSxAzA.js";import"../chunks/DyU2joBl.js";import{p as u,c as i,b as A,s as h,n as g,r as n,t as x,d as b,e as _}from"../chunks/TsRxPGaX.js";import{s as k}from"../chunks/CWmw8g83.js";import{e as q,i as w}from"../chunks/BVzMYh9A.js";import{i as z}from"../chunks/DLVtvUpp.js";import{s as C,e as a}from"../chunks/uJhb9FOd.js";var G=p('<p id="news-align"> </p>'),M=p('<div class="huge2timesText"><h1 id="center-align"></h1> <hr><br> <!> <br></div>');function F(o,m){u(m,!1),z();var e=M(),s=i(e);s.textContent=C;var l=h(s,5);q(l,1,()=>[...a["General Announcements"].split(`
+`),...a["Ask Adams"].split(`
+`),...a.Organization.split(`
+`)],w,(d,c)=>{var t=G(),f=i(t,!0);n(t),x(v=>k(f,v),[()=>_(c).replaceAll("	","    ")],b),r(d,t)}),g(2),n(e),r(o,e),A()}export{F as component};

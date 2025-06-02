@@ -11,7 +11,7 @@ HAPPY HALLOWEEN!
 
 `,"Eagle Alert":`	Former President Trump was 'targeted to death' (Chio Moreno) by Ryan Routh on September 15 at his golf course in Florida. Kamala and Trump have been rallying in many states.
 	The East Coast was hit by a huge hurricane (Hurricane Helene, Category 4). It started on September 20th in North Carolina. Its death toll is at least 249 accross 6 different states with at least 1 million homes without electricity because of this storm. It is possible that these hurricanes could get worse because of climate change making the air warmer.
-	Sean Diddy Combs Was put in jail for sex trafficking and kidnapping. He has offered up to 50 million USD for is bail, but the judge has declined, twice. He is expected to stay in prison for about 15 years to life.
+	Sean 'Diddy' Combs Was put in jail for sex trafficking and kidnapping. He has offered up to 50 million USD for is bail, but the judge has declined, twice. He is expected to stay in prison for about 15 years to life.
 	Rancho Palos Verdes has been affected by many landslides because of the accumulating groundwater and heavy rains recently.
 
 `,"Meet the South Bay":`This month the, 'Meet the South Bay' segment has been replaced with Meet the Office!
